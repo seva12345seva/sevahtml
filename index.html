@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .cards-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Общий класс для всех карточек */
+        .product-card {
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            width: 220px;
+            text-align: center;
+        }
+
+        /* Общие классы для содержимого */
+        .product-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .product-price {
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+        }
+
+        .product-desc {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            margin-bottom: 20px;
+        }
+
+        /* Общий класс для кнопок */
+        .product-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .product-btn:hover {
+            opacity: 0.8;
+        }
+
+        /* Уникальные стили (модификаторы) */
+        .card-1 .product-title { color: #003366; }
+        .card-1 .product-price { color: #8b0000; }
+        .card-1 .product-btn { 
+            background-color: #2b78e4; 
+            border: 2px dotted #003366; 
+        }
+
+        .card-2 .product-title { color: #004d00; }
+        .card-2 .product-price { color: #b35900; }
+        .card-2 .product-btn { 
+            background-color: #1e7e34; 
+        }
+
+        .card-3 .product-title { color: #4b0082; }
+        .card-3 .product-price { color: #b8860b; }
+        .card-3 .product-btn { 
+            background-color: #9370db; 
+            border: 2px dashed #4b0082; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cards-container">
+        
+        <div class="product-card card-1">
+            <div class="product-title">PRODUCT NAME</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-desc">This is a brief description of the product and its features. It looks great!</div>
+            <a href="#" class="product-btn">BUY NOW</a>
+        </div>
+
+        <div class="product-card card-2">
+            <div class="product-title">PRODUCT NAME</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-desc">This is a brief description of the product and its features. It looks great!</div>
+            <a href="#" class="product-btn">BUY NOW</a>
+        </div>
+
+        <div class="product-card card-3">
+            <div class="product-title">PRODUCT NAME</div>
+            <div class="product-price">$99.99</div>
+            <div class="product-desc">This is a brief description of the product and its features. It looks great!</div>
+            <a href="#" class="product-btn">BUY NOW</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

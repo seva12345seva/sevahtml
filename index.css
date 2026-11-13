@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 50px;
+}
+
+
+.container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+
+.card {
+    width: 240px;
+    padding: 25px 20px;
+    border: 2px solid;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 18px 0;
+}
+
+.text {
+    font-size: 15px;
+    color: #222;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.card-1 {
+    border-color: #2c3e50;
+}
+.title-1 {
+    color: #1a2a4a;
+}
+.price-1 {
+    color: #a31616;
+}
+.btn-1 {
+    background-color: #3b7cc4;
+    border: 2px dotted #a8c7e8; 
+}
+.btn-1:hover {
+    background-color: #265a96; 
+}
+
+
+
+.card-2 {
+    border-color: #222;
+}
+.title-2 {
+    color: #163a16;
+}
+.price-2 {
+    color: #b5651d;
+}
+.btn-2 {
+    background-color: #1e711e;
+    border: 2px solid #8ec48e; 
+}
+.btn-2:hover {
+    background-color: #134d13; 
+}
+
+
+
+.card-3 {
+    border-color: #222;
+}
+.title-3 {
+    color: #3d1247;
+}
+.price-3 {
+    color: #b85d19;
+}
+.btn-3 {
+    background-color: #a66bbe;
+    border: 2px dashed #4a235a; 
+}
+.btn-3:hover {
+    background-color: #824999; 
+}
